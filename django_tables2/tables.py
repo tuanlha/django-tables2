@@ -150,6 +150,7 @@ class TableOptions(object):
         """
         Check class Meta attributes to prevent common mistakes.
         """
+        return
         if options is None:
             return
 
